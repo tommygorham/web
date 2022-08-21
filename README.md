@@ -1,4 +1,4 @@
-## This Repository contains web stuff. 
+## This repository contains web stuff. 
 * Each subfolder is its own, separate project 
 * No plan to update these, as they are mostly just old college assignments
 * Below is a brief description of each subfolder/project

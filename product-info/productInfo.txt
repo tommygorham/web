@@ -1,0 +1,6 @@
+Bagel:Cinnamonraison:Bag3456:2.95:2
+Cappuchino:Doubleespressoandhotmilk:Cap3570:3.75:3
+Coffee:Ittastesgood:Abc1234:3.30:1
+Espresso:Darkandstrong:Esp5670:3.50:100
+Frappuchino:Coldandsweet:Fra9021:4.00:6
+Macbook:Agoodcomputer:Hpc1010:1100.99:5

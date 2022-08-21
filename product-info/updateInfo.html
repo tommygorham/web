@@ -1,0 +1,53 @@
+<!––
+Author: Tommy Gorham
+Test 1
+Date: 6/10/19
+––> 
+<!DOCTYPE html>
+<html> 
+<head>
+  <title>Update Info</title>
+  <link rel="stylesheet" type="text/css" href="sample.css">
+</head> 
+<body>
+<h1>PRODUCT INFORMATION</h1>
+<p>
+	<form action = "updateInfo.php" method = "post"> 
+		<!––
+ 		INPUT FIELDS INSIDE TABLE
+   		––> 
+   		<table border = "1"> 
+   		<tr> 
+   			<td>Product Name </td>
+   			<td><input type="string" name="product_name" maxlength="20"></td>
+		</tr>
+
+		<tr> 
+			<td>Product Description</td>
+	    	<td><input type="string" name="product_description" maxlength="100"></td>
+	    </tr>
+
+	    <tr> 
+			<td>Product ID Number</td>
+	   		<td><input type="text" name="product_id" pattern="\b[a-zA-Z]{3}\d{4}\b"> </td>
+	   	</tr>
+
+	   	<tr> 
+	   		<td>Product Cost</td>
+	   		<td><input type="number" required name="product_cost" min="0"step=".01"></td>
+	   	</tr>
+
+		<tr> 
+			<td>Product Quantity</td> 
+			<td><input type="number" name="product_quantity" min="0" step="1"></td>
+		</tr>
+		</table>
+		<!––
+ 		BUTTONS
+   		––> 
+        <input type="Submit" value="SUBMIT">
+        <input type="RESET" value="RESET">
+  </form>
+</body>
+</html>
+

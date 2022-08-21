@@ -7,7 +7,7 @@
 *  An algorithm to decode sha1, sha224, and sha256 encrypted passwords
 
 ### mysql 
-* Takes data from sakila database and writes to text using embedded sql/php
+* Takes data from a sakila database and writes to text using embedded sql/php
 
 ### product-info
 * Takes product information from user input in html table and writes to text using php
